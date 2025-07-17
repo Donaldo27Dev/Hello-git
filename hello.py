@@ -2,7 +2,7 @@ print ("Holaaa Git, buenas noches ✨!!")
 
 # FUNCION SUMA
 def sumar(valor): 
-    resTotal = valor + 10 
+    resTotal = valor + 50 
     return resTotal
 
 # CONSTRUCTOR O INICIALIZADOR
