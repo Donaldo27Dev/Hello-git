@@ -1,11 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Probando Git</title>
 </head>
+
 <body>
-    <h1>WELCOME TO GIT!!!</h1>
+    <h1>BIENVENIDO A GIT!!!</h1>
+    <p>Ingresa tu nombre
+        <input type="text" id="txtNombreUs">
+    </p>
+    <button id="btnMsj">Descubreme</button>
 </body>
+<script>
+
+    let btnMensaje = document.getElementById("btnMsj");
+    
+    btnMensaje.addEventListener('click', () => {
+
+        let nomUs = document.getElementById("txtNombreUs").value;
+        
+        if(nomUs != ""){
+            alert("Hola " + nomUs.toUpperCase() + " !!!.");
+        }
+
+    });
+
+
+</script>
+
 </html>
